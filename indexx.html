@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Sign-up Form</title>
 	<link rel="stylesheet" href="style.css">
 </head>
 
@@ -17,7 +17,7 @@
 			<div class="form-para">
 				<p>This is not a real online service! You know you need something like this in your life to help you
 					realize your deepest
-					dreans. Sign up <em>now</em> to get started.</p>
+					dreams. Sign up <em>now</em> to get started.</p>
 				<p>You <em>know</em> you want to.</p>
 			</div>
 			<div class="form">
@@ -26,12 +26,12 @@
 					<div class="form-row">
 						<div class="form-col">
 							<label for="firstname">*FIRST NAME</label>
-							<input type="text" name="firstname" id="firstname" required>
+							<input type="text" name="firstname" id="firstname" required pattern="^[^0-9]+$">
 						</div>
 
 						<div class="form-col">
 							<label for="lastname">*LAST NAME</label>
-							<input type="text" name="lastname" id="lastname" required>
+							<input type="text" name="lastname" id="lastname" required pattern="^[^0-9]+$">
 						</div>
 					</div>
 					<div class="form-row">
@@ -42,7 +42,7 @@
 
 						<div class="form-col">
 							<label for="phone">PHONE NUMBER</label>
-							<input type="number" name="phone" id="phone">
+							<input type="number" name="phone" id="phone" min="10" max="10">
 						</div>
 					</div>
 					<div class="form-row">
@@ -64,7 +64,6 @@
 					</div>
 				</form>
 			</div>
-			<div class="form-submit"></div>
 		</div>
 	</div>
 </body>

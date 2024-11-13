@@ -1,3 +1,5 @@
+/* CSS Reset */
+
 /* 1. Use a more-intuitive box-sizing model */
 *,
 *::before,
@@ -69,7 +71,7 @@ h6 {
 }
 
 
-/* CSS */
+/* CSS of the form*/
 
 * {
 	font-family: Helvetica;
@@ -130,10 +132,6 @@ label {
 	flex: 1;
 }
 
-.form-col>input {
-	width: 100%;
-}
-
 form {
 	display: flex;
 	flex-direction: column;
@@ -144,7 +142,12 @@ form button {
 	background-color: #596D48;
 	padding: 5px 45px;
 	color: white;
+	border-radius: 7px;
+	box-shadow: 3px 3px 15px black;
+}
 
+form button:hover {
+	background-color: #596d48c5;
 }
 
 .form-row>.form-col {
@@ -154,5 +157,26 @@ form button {
 .form-col>p {
 	margin-top: 5px;
 }
+
+
+.form-col>input {
+	width: 100%;
+	border: 2px solid #D6D9DC;
+	border-radius: 3px;
+	padding: 3px 10px;
+}
+
+.form-col>input:user-invalid {
+	border: 1px solid #b92326;
+	background-color: rgba(185, 35, 38, 0.25);
+}
+
+.form-col>input:valid {
+	border: 1px solid #8BC34A;
+	background-color: rgba(139, 195, 74, 0.25);
+}
+
+
+
 
 /* input:required::before {} */
