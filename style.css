@@ -89,6 +89,10 @@ body {
 	background-color: #F9FAFB;
 	flex: 1;
 	padding: 100px 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 50px;
 }
 
 .form-img img {
@@ -101,5 +105,52 @@ body {
 }
 
 .form {
-	background-color: pink;
+	background-color: white;
+}
+
+label {
+	display: block;
+}
+
+.form-row {
+	display: flex;
+	gap: 40px;
+}
+
+.form>p {
+	padding: 20px 40px 0 40px;
+}
+
+.form>form {
+	padding: 0 40px;
+	padding-top: 20px;
+}
+
+.form-col {
+	flex: 1;
+}
+
+.form-col>input {
+	width: 100%;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+form button {
+	background-color: #596D48;
+	padding: 5px 45px;
+	color: white;
+
+}
+
+.form-row>.form-col {
+	padding-bottom: 20px;
+}
+
+.form-col>p {
+	margin-top: 5px;
 }
