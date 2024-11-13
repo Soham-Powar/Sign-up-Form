@@ -154,3 +154,5 @@ form button {
 .form-col>p {
 	margin-top: 5px;
 }
+
+/* input:required::before {} */
