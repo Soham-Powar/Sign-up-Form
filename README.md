@@ -17,7 +17,3 @@ You can view the live project [here](https://soham-powar.github.io/Sign-up-Form/
 
 ## Features
 - Realistic form styling with hover, focus, and invalid input styles.
-- Responsive design layout.
-
-## Acknowledgments
-Thanks to [The Odin Project](https://www.theodinproject.com/) for providing the project guidelines.
