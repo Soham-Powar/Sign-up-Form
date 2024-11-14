@@ -183,7 +183,7 @@ input:focus {
 	background-color: rgba(185, 35, 38, 0.25);
 }
 
-.form-col>input:valid {
+.form-col>input:user-valid {
 	border: 1px solid #8BC34A;
 	background-color: rgba(139, 195, 74, 0.25);
 }
