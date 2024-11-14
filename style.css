@@ -73,6 +73,11 @@ h6 {
 
 /* CSS of the form*/
 
+@font-face {
+	font-family: norse;
+	src: url(Norse-Bold.otf);
+}
+
 * {
 	font-family: Helvetica;
 }
@@ -182,6 +187,34 @@ input:focus {
 	border: 1px solid #8BC34A;
 	background-color: rgba(139, 195, 74, 0.25);
 }
+
+.form-img {
+	position: relative;
+}
+
+.odin-logo {
+	position: absolute;
+	top: 25%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.603);
+	display: flex;
+	align-items: center;
+	margin: auto;
+	justify-content: center;
+	gap: 10px;
+}
+
+.odin-logo>img {
+	height: 150px;
+}
+
+.odin-logo>h1 {
+	color: white;
+	font-family: norse, sans-serif;
+	font-size: 5rem;
+}
+
+
 
 
 
