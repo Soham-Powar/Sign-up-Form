@@ -158,6 +158,13 @@ form button:hover {
 	margin-top: 5px;
 }
 
+.form-col>input:focus {
+	border: 1px solid #1D4ED8;
+}
+
+input:focus {
+	outline: none;
+}
 
 .form-col>input {
 	width: 100%;
@@ -175,6 +182,8 @@ form button:hover {
 	border: 1px solid #8BC34A;
 	background-color: rgba(139, 195, 74, 0.25);
 }
+
+
 
 
 
