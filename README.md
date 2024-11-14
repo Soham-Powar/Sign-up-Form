@@ -15,5 +15,5 @@ You can view the live project [here](https://soham-powar.github.io/Sign-up-Form/
 - HTML5
 - CSS3
 
-## Features
-- Realistic form styling with hover, focus, and invalid input styles.
+
+<!-- Responsive design is not added as of yet. -->
